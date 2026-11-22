@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-24)
+## Unreleased (2026-11-22)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`b09c612`](https://github.com/stdlib-js/stdlib/commit/b09c612f9be0a34d98f1363ef795cb26d4b0525b) - use `offsetOut` when the output stride is negative [(#16735)](https://github.com/stdlib-js/stdlib/pull/16735)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`b09c612`](https://github.com/stdlib-js/stdlib/commit/b09c612f9be0a34d98f1363ef795cb26d4b0525b) - **fix:** use `offsetOut` when the output stride is negative [(#16735)](https://github.com/stdlib-js/stdlib/pull/16735) _(by Subham Mahapatra)_
 -   [`2e01a60`](https://github.com/stdlib-js/stdlib/commit/2e01a608e7bf79369cedb902784df5527c764e74) - **bench:** refactor to use dynamic memory allocation in `stats/strided` [(#11700)](https://github.com/stdlib-js/stdlib/pull/11700) _(by Uday Kakade)_
 -   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
 
@@ -25,9 +36,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Subham Mahapatra
 -   Uday Kakade
 
 </section>
